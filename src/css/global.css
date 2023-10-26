@@ -1,0 +1,123 @@
+:root{
+    --cor-da-barra-superior: #000000;
+    --cor-do-menu-lateral: #ffffff;
+    --cor-de-fundo: #f8e9e9;
+    --cor-do-rodape: #640707;
+    --cor-do-titulo: #9b2020;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.6rem;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--cor-de-fundo);
+}
+
+.header{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    background-color: var(--cor-da-barra-superior);
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 1rem 5rem 1rem 1rem;
+}
+
+.header .logo{
+    width: 200px;
+    border-radius: 1rem;
+}
+
+.header .menu{
+    display: flex;
+    gap: 5rem;
+}
+
+.header .menu li a{
+    color: var(--cor-de-fundo);
+    padding: 1rem;
+    font-size: 2rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    transition: 0.3s all ease-in-out;
+}
+
+.header .menu li a:hover{
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-da-barra-superior);
+}
+
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3rem;
+    background-color: var(--cor-do-rodape);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer p, .footer .social h3, .footer .social ul .rede-social{
+    color: var(--cor-de-fundo);
+    font-size: 2rem;
+}
+
+.footer .social{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    gap: 2rem;
+}
+
+.footer .social ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .social ul .rede-social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border: 0.1rem solid var(--cor-de-fundo);
+    border-radius: 50%;
+    transition: 0.3s all ease-in-out;
+}
+
+.footer .social ul .rede-social:hover{
+    color: var(--cor-do-rodape);
+    border: 0.1rem solid var(--cor-do-rodape);
+    background-color: var(--cor-de-fundo);
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+hr{
+    margin: 1rem 0;
+}
+
+h3{
+    font-size: 2.6rem;
+}
+
+a{
+    color: #000000;
+    transition: 0.3s all ease-in-out;
+    font-weight: bold;
+}
+a:hover{
+    color: var(--cor-do-rodape);
+}

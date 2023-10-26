@@ -1,0 +1,48 @@
+.menu-lateral{
+    position: fixed;
+    top: 12rem;
+    right: 0 auto;
+    padding: 3rem;
+    border-right: 1px solid #bdb3b3;
+}
+
+.menu-lateral .menu-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.main{
+    padding: 3rem 3rem 3rem 19rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.main .secao-principal .imagem-e-referencia{
+    margin-bottom: 3rem;
+}
+
+.main .secao-principal .imagem-e-referencia .referencia{
+    text-align: center;
+}
+
+.main .secao-principal .intro{
+    margin-bottom: 5rem;
+}
+
+.tam-imagem{
+    max-width: 1080px;
+}
+
+.main .secao-principal .conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+
